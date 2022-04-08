@@ -32,7 +32,7 @@ img {
   transition: 2s;
 }
 
-.joelImg:active {
+.joelImg:hover {
   width: 100%;
   border: 5px dotted purple;
   background-color: aquamarine;
@@ -55,7 +55,7 @@ img {
   transition: 2s;
 }
 
-.row:active {
+.row:hover {
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.719);
   width: 100%;
 }
