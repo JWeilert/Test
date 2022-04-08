@@ -19,14 +19,20 @@ body {
   width: 75%;
   background-color: aquamarine;
   padding: 1em;
-  height: 50vh;
+  height: auto;
 }
 
 img {
   width: 100%;
+  height: auto;
   border-radius: 15em;
 }
-.joelImg:hover {
+
+.joelImg {
+  transition: 2s;
+}
+
+.joelImg:active {
   width: 100%;
   border: 5px dotted purple;
   background-color: aquamarine;
@@ -46,8 +52,10 @@ img {
   width: 50%;
   border: 2px solid black;
   border-radius: 2em;
+  transition: 2s;
 }
 
-.row:hover {
+.row:active {
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.719);
+  width: 100%;
 }
