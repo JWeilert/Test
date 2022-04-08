@@ -54,7 +54,9 @@ img {
   border-radius: 2em;
   transition: 2s;
 }
-
+body > p{
+  background-color: aqua;
+}
 .row:hover {
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.719);
   width: 100%;
